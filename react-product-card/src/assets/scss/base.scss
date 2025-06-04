@@ -1,0 +1,36 @@
+$black: hsl(212, 21%, 14%);
+$grey: hsl(228, 12%, 48%);
+$cream: hsl(30, 38%, 92%);
+$white: #ffffff;
+
+$lightGreen: hsl(158, 36%, 37%);
+$darkGreen: hsl(158, 42%, 18%);
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: $cream;
+    margin: 0;
+    padding: 0;
+}
+
+.product-card{
+    display: flex;
+    width: 50vw;
+    border-radius: 10px;
+    background-color: $white;
+    .product-card-image img{
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        height: 100%;
+    }
+    .product-card-image{
+
+    }
+    .product-card-info{
+
+    }
+}
