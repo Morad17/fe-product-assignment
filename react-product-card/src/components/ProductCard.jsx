@@ -9,9 +9,12 @@ const ProductCard = () => {
             <img src={ProductImage} alt="Product" />
         </div>
         <div className="product-card-info">
-            <h3>Perfume</h3>
-            <h1>Gabrielle Esscence Eau De Parfum</h1>
-            <p>
+            <h3 className="product-card-category">PERFUME</h3>
+            <h1 className="product-card-product-name">Gabrielle</h1>
+            <h1 className="product-card-product-name">Esscence Eau</h1>
+            <h1 className="product-card-product-name">De Parfum</h1>
+
+            <p className="product-card-description">
                 A floral, solar and voluptuous interpretation composed by Olivier Polge, 
                 Perfume-Creater for the House of CHANEL.
             </p>

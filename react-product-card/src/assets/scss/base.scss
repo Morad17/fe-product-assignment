@@ -21,16 +21,30 @@ $darkGreen: hsl(158, 42%, 18%);
     width: 50vw;
     border-radius: 10px;
     background-color: $white;
+
+    .product-card-info{
+        padding: 20px;
+    }
+    .product-card-product-name{
+        font-size: 3rem;
+        margin: 0;
+        color: $black;
+    }
+    .product-card-category{
+        font-size: 0.8rem;
+        color: $grey;
+        margin-bottom: 20px;
+        letter-spacing: 5px;
+    }
     .product-card-image img{
         width: 100%;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         height: 100%;
     }
-    .product-card-image{
-
-    }
-    .product-card-info{
-
+    .product-card-description{
+        font-size: 14px;
+        color: $grey;
+        margin-bottom: 20px;
     }
 }
