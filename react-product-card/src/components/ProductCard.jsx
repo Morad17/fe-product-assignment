@@ -1,6 +1,7 @@
 import React from 'react'
 import ProductImage from '../assets/images/image-product-desktop.jpg'
 import MobileProductImage from '../assets/images/image-product-mobile.jpg'
+import cartIcon from '../assets/images/icon-cart.svg'
 
 const ProductCard = () => {
   return (
@@ -9,7 +10,8 @@ const ProductCard = () => {
             <img src={ProductImage} alt="Product" />
         </div>
         <div className="product-card-info">
-            <h3 className="product-card-category">PERFUME</h3>
+            <div className="product-card-wrapper">
+                <h3 className="product-card-category">PERFUME</h3>
             <h1 className="product-card-product-name">Gabrielle</h1>
             <h1 className="product-card-product-name">Esscence Eau</h1>
             <h1 className="product-card-product-name">De Parfum</h1>
@@ -22,9 +24,10 @@ const ProductCard = () => {
                 <span className="product-card-price-current">$149.99</span>
                 <span className="product-card-price-original"><s>$169.99</s> </span>
             </div>
-            <button className="product-card-button">
-                Add to Cart
-            </button>
+                <button className="product-card-btn">
+                    <img className="svg"src={cartIcon} alt="" /> Add to Cart
+                </button> 
+            </div>
         </div>
     </div>
   )

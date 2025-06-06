@@ -1,12 +1,12 @@
-import React from 'react'
-import ProductCard from '../components/ProductCard'
+import React from "react";
+import ProductCard from "../components/ProductCard";
 
 const Home = () => {
   return (
     <div className="home">
-        <ProductCard />
+      <ProductCard />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
