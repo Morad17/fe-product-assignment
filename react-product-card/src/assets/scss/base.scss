@@ -96,9 +96,16 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
     }
     .svg{
         margin-right: 10px;
+    }
+    // Hover Effect//
+    .product-card-btn:hover{
+        background-color: $darkGreen;
+        transform:scale(1.05);
+        transition: all 0.3s ease-in-out;
     }
 }
 

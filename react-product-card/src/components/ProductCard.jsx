@@ -4,26 +4,21 @@ import MobileProductImage from "../assets/images/image-product-mobile.jpg";
 import cartIcon from "../assets/images/icon-cart.svg";
 
 const ProductCard = () => {
-    // // Check if the screen width is less than or equal to 768px
-    // const isMobile = window.innerWidth <= 768;
-    // // Use the mobile image if on a mobile device, otherwise use the desktop image
-    // const responsiveImg = isMobile ? MobileProductImage : ProductImage;  
-
   return (
     <div className="product-card">
-        <div className="product-card-image">
+      <div className="product-card-image">
         <picture>
-            <source srcSet={MobileProductImage} media="(max-width: 425px)" />
-            <img src={ProductImage} alt="Product" />
+          <source srcSet={MobileProductImage} media="(max-width: 425px)" />
+          <img src={ProductImage} alt="Product" />
         </picture>
-        </div>
+      </div>
       <div className="product-card-info">
         <div className="product-card-wrapper">
           <h3 className="product-card-category">PERFUME</h3>
           <div className="product-card-name-main">
-            <h1 className="product-card-name">Gabrielle
-            Esscence Eau
-            De Parfum</h1>
+            <h1 className="product-card-name">
+              Gabrielle Esscence Eau De Parfum
+            </h1>
           </div>
 
           <p className="product-card-description">
