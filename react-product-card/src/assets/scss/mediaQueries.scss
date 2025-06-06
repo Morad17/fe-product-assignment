@@ -1,0 +1,67 @@
+//--------Screens between laptop and tablet ---------//
+
+@media screen and (max-width: 1400px) {
+  .product-card {
+    width: 50vw;
+  }
+}
+
+//--------Laptop Size (1024px - 1366px)---------//
+@media screen and (max-width: 1200px) {
+  .product-card {
+    width: 60vw;
+    .product-card-name,
+    .product-card-price-current {
+      font-size: 2rem;
+    }
+    .product-card-category,
+    .product-card-description,
+    .product-card-btn {
+      font-size: 13px;
+    }
+    .product-card-btn {
+      font-size: 15px;
+      padding: 14px;
+      margin: 10px 0 20px 0;
+    }
+    .product-card-category{
+        padding-bottom: 20px;
+    }
+  }
+}
+
+//--------Tablet Size (768px - 1024px)---------//
+@media screen and (max-width: 900px) {
+  .product-card {
+    width: 80vw;
+    flex-direction: column;
+    .product-card-image,
+    .product-card-info {
+      width: 100%;
+    }
+    .product-card-image img {
+      border-radius: 10px 10px 0 0;
+      height: auto;
+      max-height: 250px;
+      object-fit: cover;
+    }
+    .product-card-wrapper {
+      padding: 0% 5%;
+    }
+  }
+}
+
+//--------Mobile/Small Tablet Size---------//
+@media screen and (max-width: 600px) {
+  .product-card {
+    width: 95vw;
+    .product-card-wrapper {
+      padding: 0% 5%;
+    }
+    .product-card-btn {
+      font-size: 14px;
+      padding: 10px;
+      margin: 10px 0 20px 0;
+    }
+  }
+}

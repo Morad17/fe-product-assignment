@@ -9,7 +9,9 @@ $white: #ffffff;
 
 $lightGreen: hsl(158, 36%, 37%);
 $darkGreen: hsl(158, 42%, 18%);
-
+body{
+    margin: 0;
+}
 .home{
     display: flex;
     justify-content: center;
@@ -49,7 +51,7 @@ $darkGreen: hsl(158, 42%, 18%);
         font-family: "Fraunces", sans-serif;
     }
     .product-card-category{
-        font-size: 0.8rem;
+        font-size: 14px;
         color: $grey;
         letter-spacing: 5px;
         padding-top: 20px;
@@ -84,15 +86,20 @@ $darkGreen: hsl(158, 42%, 18%);
     }
     .product-card-btn{
         width: 100%;
-        background-color: $darkGreen;
+        background-color: $lightGreen;
         color: $white;
         border-radius: 10px;
         padding: 20px;
-        font-size: 18px;
+        font-size: 16px;
         border: none;
         margin: 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .svg{
         margin-right: 10px;
     }
 }
+
+@import './mediaQueries';
