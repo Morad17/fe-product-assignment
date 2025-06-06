@@ -12,9 +12,12 @@ const ProductCard = () => {
         <div className="product-card-info">
             <div className="product-card-wrapper">
                 <h3 className="product-card-category">PERFUME</h3>
-            <h1 className="product-card-product-name">Gabrielle</h1>
-            <h1 className="product-card-product-name">Esscence Eau</h1>
-            <h1 className="product-card-product-name">De Parfum</h1>
+                <div className="product-card-name-main">
+                                <h1 className="product-card-name">Gabrielle</h1>
+            <h1 className="product-card-name">Esscence Eau</h1>
+            <h1 className="product-card-name">De Parfum</h1>
+                </div>
+
 
             <p className="product-card-description">
                 A floral, solar and voluptuous interpretation composed by Olivier Polge, 
