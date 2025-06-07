@@ -27,7 +27,7 @@ Users should be able to:
 ### Screenshot
 
 I have added a screenshot of the project, with all the responsive widths:
-![Responsive Screenshot](react-product-card/src/assets/images/responsive-project.png)
+![Responsive Screenshot](src/assets/images/responsive-project.png)
 
 ### Links
 
