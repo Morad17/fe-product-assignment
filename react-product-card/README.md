@@ -27,12 +27,12 @@ Users should be able to:
 ### Screenshot
 
 I have added a screenshot of the project, with all the responsive widths:
-![Responsive Screenshot](react-product-card\src\assets\images\responsive-project.png)
+![Responsive Screenshot](src\assets\images\responsive-project.png)
 
 ### Links
 
-- Solution URL: [https://github.com/Morad17/fe-product-assignment/tree/master/react-product-card](Github Repo)
-- Live Site URL: [https://fe-project-assaignment.netlify.app/](Live Site)
+- Solution URL: [Github Repo](https://github.com/Morad17/fe-product-assignment/tree/master/react-product-card)
+- Live Site URL: [Live Site](https://fe-project-assaignment.netlify.app/)
 
 ## My process
 
