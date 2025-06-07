@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import ProductImage from "../assets/images/image-product-desktop.jpg";
 import MobileProductImage from "../assets/images/image-product-mobile.jpg";
 import cartIcon from "../assets/images/icon-cart.svg";
 
 const ProductCard = () => {
+
+    const [addedToCart, setAddedToCart] = useState(false);
+
   return (
     <div className="product-card">
       <div className="product-card-image">
@@ -28,12 +31,18 @@ const ProductCard = () => {
           <div className="product-card-price">
             <span className="product-card-price-current">$149.99</span>
             <span className="product-card-price-original">
-              <s>$169.99</s>{" "}
+              <s>$169.99</s>
             </span>
           </div>
-          <button className="product-card-btn">
+          {
+            addedToCart ? 
+          <button onClick={()=> setAddedToCart(!addedToCart)}className="product-card-btn active">
+            Added
+          </button> :
+           <button onClick={()=> setAddedToCart(!addedToCart)}className="product-card-btn">
             <img className="svg" src={cartIcon} alt="" /> Add to Cart
           </button>
+          }
         </div>
       </div>
     </div>

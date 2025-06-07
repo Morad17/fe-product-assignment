@@ -101,12 +101,21 @@ body{
     .svg{
         margin-right: 10px;
     }
+    .active{
+        background-color: $darkGreen;
+    }
     // Hover Effect//
     .product-card-btn:hover{
         background-color: $darkGreen;
         transform:scale(1.05);
         transition: all 0.3s ease-in-out;
     }
+        .active:hover{
+        background-color: $lightGreen;
+        transform:scale(1.05);
+        transition: all 0.3s ease-in-out;
+    }
+    
 }
 
 @import './mediaQueries';
