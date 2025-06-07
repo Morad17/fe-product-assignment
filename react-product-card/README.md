@@ -44,14 +44,22 @@ I have added a screenshot of the project, with all the responsive widths:
 - SCSS styling properties and variables
 - Flexbox
 - Consideration for mobile and tablet devices
+- [https://testing-library.com/docs/react-testing-library/intro/](React Testing) and [https://jestjs.io/ ](Jest) testing libraries for testing the component
 
 ### What I learned
 
-From this project I have reaffirmed my strength in mentally knowing the structure of react apps/ components. In terms of learing, media queries was where I had enhanced my understading, to accomodate the cards with all widths, even the in-between devices (laptop - tablet etc.). It has also helped me to gauge and asses sizing based on the design spec an no exact measurements.
+From this project I have reaffirmed my strength in mentally knowing the structure of react apps/ components. In terms of learning, media queries was where I had enhanced my understading, to accomodate the cards with all widths, even the in-between devices (laptop - tablet etc.). It has also helped me to gauge and asses sizing based on the design spec without all the exact sizings.
+
+I used the styling guide to make sure the component was exactly as expected, and cross matched the colors of the example with styling colors to get the correct colors used.I alway referred back to the examples, when stuck to make sure it visually looks as expected.
 
 ### Continued development
 
-I would mainily like to imporve my efficienty when creating cards. Some aspects, like the HTML side and flexbox were very quick for me to consturct, but others I needed to take my time and implement a little trial and error, like figuring out sizing for smaller widths, and in this I will develop from more proejcts.
+With time I would like to:
+
+- Create a transition animation, implementing color change vertically, I have tested this but currently did not have time to successfully finish it
+- Add a few more tests to fully test the design of the card
+
+SkillWise I would mainily like to improve my efficienty when creating cards. Some aspects, like the HTML side and flexbox were very quick for me to consturct, but others I needed to take my time and implement a little trial and error, like figuring out sizing for smaller widths, and in this I will develop from more proejcts.
 
 ### Useful resources
 
