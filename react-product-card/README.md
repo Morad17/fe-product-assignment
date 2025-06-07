@@ -15,8 +15,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -29,7 +27,7 @@ Users should be able to:
 ### Screenshot
 
 I have added a screenshot of the project, with all the responsive widths:
-![react-product-card\src\assets\images\responsive-project.png](Responsive Screenshot)
+![Responsive Screenshot](react-product-card\src\assets\images\responsive-project.png)
 
 ### Links
 
@@ -44,7 +42,7 @@ I have added a screenshot of the project, with all the responsive widths:
 - SCSS styling properties and variables
 - Flexbox
 - Consideration for mobile and tablet devices
-- [https://testing-library.com/docs/react-testing-library/intro/](React Testing) and [https://jestjs.io/ ](Jest) testing libraries for testing the component
+- [React Testing](https://testing-library.com/docs/react-testing-library/intro/) and [Jest](https://jestjs.io/) testing libraries for testing the component
 
 ### What I learned
 
@@ -63,7 +61,7 @@ SkillWise I would mainily like to improve my efficienty when creating cards. Som
 
 ### Useful resources
 
-- [https://usepastel.com/responsive-website-test](Responsive checker) - As well as inspector on chrome, this website checker was used to reaffirm the responsiveness on smaller screen sizes.
+- [Responsive devices checker](https://usepastel.com/responsive-website-test) - As well as inspector on chrome, this website checker was used to reaffirm the responsiveness on smaller screen sizes.
 
 ## Author
 
