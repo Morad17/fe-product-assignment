@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shows "Added" button after clicking Add to Cart three times 1`] = `
+<DocumentFragment>
+  <div
+    class="product-card"
+  >
+    <div
+      class="product-card-image"
+    >
+      <picture>
+        <source
+          media="(max-width: 425px)"
+          srcset="image-product-mobile.jpg"
+        />
+        <img
+          alt="Product"
+          src="image-product-desktop.jpg"
+        />
+      </picture>
+    </div>
+    <div
+      class="product-card-info"
+    >
+      <div
+        class="product-card-wrapper"
+      >
+        <h3
+          class="product-card-category"
+        >
+          PERFUME
+        </h3>
+        <div
+          class="product-card-name-main"
+        >
+          <h1
+            class="product-card-name"
+          >
+            Gabrielle Esscence Eau De Parfum
+          </h1>
+        </div>
+        <p
+          class="product-card-description"
+        >
+          A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfume-Creater for the House of CHANEL.
+        </p>
+        <div
+          class="product-card-price"
+        >
+          <span
+            class="product-card-price-current"
+          >
+            $149.99
+          </span>
+          <span
+            class="product-card-price-original"
+          >
+            <s>
+              $169.99
+            </s>
+          </span>
+        </div>
+        <button
+          class="product-card-btn active"
+          id="addToCart"
+        >
+          Added
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

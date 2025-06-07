@@ -36,10 +36,10 @@ const ProductCard = () => {
           </div>
           {
             addedToCart ? 
-          <button onClick={()=> setAddedToCart(!addedToCart)}className="product-card-btn active">
+          <button id="addToCart"onClick={()=> setAddedToCart(!addedToCart)}className="product-card-btn active">
             Added
           </button> :
-           <button onClick={()=> setAddedToCart(!addedToCart)}className="product-card-btn">
+           <button id="addToCart" onClick={()=> setAddedToCart(!addedToCart)}className="product-card-btn">
             <img className="svg" src={cartIcon} alt="" /> Add to Cart
           </button>
           }
